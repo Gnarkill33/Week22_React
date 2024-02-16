@@ -17,8 +17,8 @@ function Card () {
                             Друзья: {record.friends}<br/>
                             Суперсилы: {record.superpowers}
                         </div>
-                        <div className='card__image'>
-                            <img src={record.url} alt="" />
+                        <div className='card__wrap'>
+                            <img className='card__image' src={record.url} alt="" />
                         </div>
                         </div>
                     )
